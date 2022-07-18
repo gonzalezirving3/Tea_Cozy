@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 0;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menu p {
+    display: inline-flex;
+    text-decoration: underline;
+}

@@ -7,6 +7,7 @@ body {
     margin: 0 0;
 }
 
+/* Header Styles */
 header {
     height: 69px;
     width: 100%;
@@ -32,4 +33,30 @@ header {
     margin-right: 20px;
     flex-shrink: 5;
     flex-wrap: nowrap;
+}
+
+/* Main Section Styles */
+.banner-hero {
+    position: relative;
+    top: 70px;
+    height: 700px;
+    background-image: url(images/img-mission-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-statement {
+    background-color: black;
+    height: 120px;
+    width: 1200px;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

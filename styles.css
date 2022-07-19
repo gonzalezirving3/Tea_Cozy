@@ -63,6 +63,10 @@ header {
     justify-content: center;
 }
 
+.mission-statement h2 {
+    margin-bottom: -10px;
+}
+
 /* Tea of the Month styles */
 .tea-of-the-month {
     position: relative;
@@ -104,4 +108,52 @@ header {
 .flavors {
     height: 200px;
     width: 300px;
+}
+
+/* Locations Styles */
+.location {
+    position: relative;
+    top: 60px;
+    height: 500px;
+    margin: 0 55px;
+    background-image: url(images/img-locations-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addresses-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 0 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-info {
+    height: 200px;
+}
+
+.copyright {
+    align-self: flex-start;
+    margin-left: 20px;
 }
